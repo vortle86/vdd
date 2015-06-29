@@ -4,9 +4,9 @@
     "memory": "2048",
     "synced_folders": [
       {
-        "host_path": "/Users/rfay/workspace/wsupg",
+        "host_path": "C:/Users/Elisheba/PhpstormProjects/wsupg",
         "guest_path": "/var/www/wsupg",
-        "type": "nfs"
+        "type": "rsync"
       }
     ],
     "forwarded_ports": []
