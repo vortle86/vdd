@@ -7,7 +7,13 @@
         "host_path": "C:/Users/Elisheba/PhpstormProjects/wsupg",
         "guest_path": "/var/www/wsupg",
         "type": "rsync"
+      },
+      {
+        "host_path": "C:/Users/Elisheba/PhpstormProjects/warmshowers",
+        "guest_path": "/var/www/warmshowers",
+        "type": "rsync"
       }
+
     ],
     "forwarded_ports": []
   },
@@ -22,7 +28,27 @@
         "vhost": {
           "document_root": "wsupg/docroot",
           "url": "wsupg.dev",
-          "alias": ["es.wsupg.dev", "fr.wsupg.dev", "de.wsupg.dev"]
+          "alias": [
+            "es.wsupg.dev",
+            "fr.wsupg.dev",
+            "de.wsupg.dev"
+          ]
+        }
+      },
+      "warmshowers.dev": {
+        "account_name": "root",
+        "account_pass": "root",
+        "account_mail": "box@example.com",
+        "site_name": "warmshowers.dev",
+        "site_mail": "box@example.com",
+        "vhost": {
+          "document_root": "warmshowers/docroot",
+          "url": "warmshowers.dev",
+          "alias": [
+            "es.warmshowers.dev",
+            "fr.warmshowers.dev",
+            "de.warmshowers.dev"
+          ]
         }
       }
     }
